@@ -13,7 +13,7 @@ import android.widget.TextView;
 /**
  * Created on 18/01/2017.
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
+ * @author Sayed Erfan Arefin</a>
  * <p></p>
  */
 class MultiTouchListener implements OnTouchListener {

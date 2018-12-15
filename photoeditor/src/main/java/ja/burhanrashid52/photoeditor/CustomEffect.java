@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * Define your custom effect using {@link Builder} class
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
- * @version 0.1.2
+ * @author Sayed Erfan Arefin</a>
+ * @version 1.0.0
  * @since 5/22/2018
  */
 public class CustomEffect {

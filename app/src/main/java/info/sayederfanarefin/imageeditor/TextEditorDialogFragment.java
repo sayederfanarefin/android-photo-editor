@@ -23,7 +23,7 @@ import android.widget.TextView;
 import info.sayederfanarefin.imageeditor.R;
 
 /**
- * Created by Burhanuddin Rashid on 1/16/2018.
+ * Created by Sayed Erfan Arefin on 1/16/2018.
  */
 
 public class TextEditorDialogFragment extends DialogFragment {

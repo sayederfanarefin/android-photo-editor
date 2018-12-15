@@ -14,8 +14,8 @@ import javax.microedition.khronos.opengles.GL10;
  * Bitmap utility class to perform different transformation on bitmap
  * </p>
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
- * @version 0.1.2
+ * @author Sayed Erfan Arefin</a>
+ * @version 1.0.0
  * @since 5/21/2018
  */
 class BitmapUtil {

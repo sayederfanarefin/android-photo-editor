@@ -27,8 +27,8 @@ import static ja.burhanrashid52.photoeditor.PhotoFilter.*;
  * Filter Images using ImageFilterView
  * </p>
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
- * @version 0.1.2
+ * @author Sayed Erfan Arefin</a>
+ * @version 1.0.0
  * @since 2/14/2018
  */
 class ImageFilterView extends GLSurfaceView implements GLSurfaceView.Renderer {

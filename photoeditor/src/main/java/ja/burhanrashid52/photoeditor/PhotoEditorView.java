@@ -24,7 +24,7 @@ import android.widget.RelativeLayout;
  * which our source image
  * </p>
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
+ * @author Sayed Erfan Arefin</a>
  * @version 0.1.1
  * @since 1/18/2018
  */

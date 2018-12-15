@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 /**
- * Created by Burhanuddin Rashid on 1/23/2018.
+ * Created by Sayed Erfan Arefin on 1/23/2018.
  */
 
 public class PhotoApp extends Application {

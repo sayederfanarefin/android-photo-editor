@@ -3,7 +3,7 @@ package ja.burhanrashid52.photoeditor;
 import android.view.View;
 
 /**
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
+ * @author Sayed Erfan Arefin</a>
  * @version 0.1.1
  * @since 18/01/2017
  * <p>

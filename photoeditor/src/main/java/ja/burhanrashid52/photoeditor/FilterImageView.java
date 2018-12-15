@@ -15,8 +15,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 
 /**
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
- * @version 0.1.2
+ * @author Sayed Erfan Arefin</a>
+ * @version 1.0.0
  * @since 5/21/2018
  */
 class FilterImageView extends AppCompatImageView {

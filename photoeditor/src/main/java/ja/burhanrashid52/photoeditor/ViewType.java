@@ -6,7 +6,7 @@ package ja.burhanrashid52.photoeditor;
  * Enum define for various operation happening on the {@link PhotoEditorView} while editing
  * </p>
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
+ * @author Sayed Erfan Arefin</a>
  * @version 0.1.1
  * @since 18/01/2017.
  */

@@ -24,7 +24,7 @@ import java.util.Stack;
  * as per attributes provided to the paint
  * </p>
  *
- * @author <a href="https://github.com/burhanrashid52">Burhanuddin Rashid</a>
+ * @author Sayed Erfan Arefin</a>
  * @version 0.1.1
  * @since 12/1/18
  */
