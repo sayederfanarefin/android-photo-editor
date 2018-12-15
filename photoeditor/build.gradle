@@ -6,24 +6,24 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'photoeditor'
 
-    publishedGroupId = 'ja.burhanrashid52'
+    publishedGroupId = 'boson42apps'
     libraryName = 'PhotoEditor'
     artifact = 'photoeditor'
 
-    libraryDescription = 'A Photo Editor library to edit image using paints,text,emoji and images'
+    libraryDescription = 'A Photo Editor'
 
-    siteUrl = 'https://github.com/burhanrashid52/PhotoEditor'
-    gitUrl = 'https://github.com/burhanrashid52/PhotoEditor'
+    siteUrl = 'http://boson42.tech'
+    gitUrl = 'http://boson42.tech'
 
     libraryVersion = '0.3.3'
 
     developerId = 'burhanrashid52'
     developerName = 'Sayed Erfan Arefin'
-    developerEmail = 'burhanrashid5253@gmail.com'
+    developerEmail = 'boson.42.apps@gmail.com'
 
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    licenseName = ''
+    licenseUrl = 'http://boson42.tech'
+    allLicenses = ["Boson"]
 }
 
 android {

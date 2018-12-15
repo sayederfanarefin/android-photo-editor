@@ -249,6 +249,8 @@ public class EditImageActivity extends BaseActivity implements OnPhotoEditorList
                 showSnackbar(e.getMessage());
             }
         }
+
+        showAd();
     }
 
     @Override
@@ -411,7 +413,12 @@ public class EditImageActivity extends BaseActivity implements OnPhotoEditorList
         } else if (!mPhotoEditor.isCacheEmpty()) {
             showSaveDialog();
         } else {
-            super.onBackPressed();
+            showAd();
+
         }
+    }
+
+    private void showAd(){
+        super.onBackPressed();
     }
 }

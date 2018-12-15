@@ -7,4 +7,8 @@
     <string name="label_text">Text</string>
     <string name="label_filter">Filter</string>
     <string name="label_adjust">Adjust</string>
+
+
+    <string name="APPLICATION_ID">ca-app-pub-7807255418905727~5749727383</string>
+    <string name="INTERSTITIAL_AD_ID">ca-app-pub-7807255418905727/1096166504</string>
 </resources>
