@@ -24,6 +24,9 @@ import android.view.animation.AnticipateOvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import info.sayederfanarefin.imageeditor.R;
 
 import info.sayederfanarefin.imageeditor.base.BaseActivity;
@@ -140,6 +143,11 @@ public class EditImageActivity extends BaseActivity implements OnPhotoEditorList
         imgClose = findViewById(R.id.imgClose);
         imgClose.setOnClickListener(this);
 
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getString( R.string.INTERSTITIAL_AD_ID));
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
     }
 
     @Override
@@ -250,7 +258,7 @@ public class EditImageActivity extends BaseActivity implements OnPhotoEditorList
             }
         }
 
-        showAd();
+        showAd(0);
     }
 
     @Override
@@ -413,12 +421,21 @@ public class EditImageActivity extends BaseActivity implements OnPhotoEditorList
         } else if (!mPhotoEditor.isCacheEmpty()) {
             showSaveDialog();
         } else {
-            showAd();
+            showAd(1);
 
         }
     }
+    private InterstitialAd mInterstitialAd;
+    private void showAd(int flag){
 
-    private void showAd(){
-        super.onBackPressed();
+        if (mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+
+        }
+        if(flag == 1){
+            super.onBackPressed();
+        }
+
     }
 }
