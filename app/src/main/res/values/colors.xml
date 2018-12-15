@@ -16,6 +16,9 @@
     <color name="violet_color_picker">#8359A3</color>
     <color name="yellow_color_picker">#FBE870</color>
     <color name="yellow_green_color_picker">#C5E17A</color>
-    <color name="tool_bg">#151414</color>
+
+    <color name="tool_bg">#E74C3C</color>
+    <color name="new_back">#C0392B</color>
+    <color name="new_back_op">#9cc0392b</color>
 
 </resources>

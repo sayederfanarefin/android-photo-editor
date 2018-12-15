@@ -5,7 +5,7 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:background="@color/new_back"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
@@ -27,44 +27,57 @@
         app:photo_src="@drawable/got_s" />
 
     <ImageView
-        android:id="@+id/imgUndo"
+
+        android:id="@+id/imgCamera"
+        android:src="@drawable/ic_camera"
+
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="#99000000"
+        android:background="@color/new_back_op"
         android:padding="8dp"
-        android:src="@drawable/ic_undo"
+
         app:layout_constraintBottom_toTopOf="@+id/rvConstraintTools"
-        app:layout_constraintEnd_toStartOf="@+id/imgRedo" />
+        app:layout_constraintEnd_toStartOf="@+id/imgGallery" />
 
     <ImageView
-        android:id="@+id/imgRedo"
+
+        android:id="@+id/imgGallery"
+        android:src="@drawable/ic_gallery"
+
+
+
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="#99000000"
+        android:background="@color/new_back_op"
         android:padding="8dp"
-        android:src="@drawable/ic_redo"
+
         app:layout_constraintBottom_toTopOf="@+id/rvConstraintTools"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imgGallery"
+        android:id="@+id/imgRedo"
+        android:src="@drawable/ic_redo"
+
+
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="#99000000"
+        android:background="@color/new_back_op"
         android:padding="8dp"
-        android:src="@drawable/ic_gallery"
+
         app:layout_constraintBottom_toTopOf="@+id/rvConstraintTools"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imgCamera"
+
+        android:id="@+id/imgUndo"
+        android:src="@drawable/ic_undo"
+
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="#99000000"
+        android:background="@color/new_back_op"
         android:padding="8dp"
-        android:src="@drawable/ic_camera"
         app:layout_constraintBottom_toTopOf="@+id/rvConstraintTools"
-        app:layout_constraintStart_toEndOf="@id/imgGallery" />
+        app:layout_constraintStart_toEndOf="@id/imgRedo" />
 
     <ImageView
         android:id="@+id/imgClose"
